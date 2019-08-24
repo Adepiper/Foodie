@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../src/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Princess+Sofia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <title>Foodie</title>
+  </head>
+<body>
+    <div class="foodie">
+        <div class="darkOverlay">
+       <nav class="navbar navbar-expand">
+           <a href="../src/home.html" class="navbar-brand text-white font-weight-bold"><h3>Foodie</h3></a>
+           <ul class="navbar-nav ml-auto ">
+               <li class="nav-item  d-inline" ><a href="../src/login.html" class="nav-link d-inline text-decoration-none font-weight-bold text-white px-3">LOGIN</a></li>
+                <li class="nav-item d-inline"><a href="../src/register.html" class="nav-link d-inline text-decoration-none font-weight-bold text-white px-3">REGISTER</a></li>
+        </ul>
+        
+    </nav>
+    <div class="container" id="advert">
+   <div class="jumbotron text-center text-white">
+       <h1 class="font-weight-bold py-3">
+           Best Restaurants,<br> just a click away
+       </h1>
+       <P> Select or enter  street address</P>
+   </div>
+        <div class="text-center row mainArea ">
+            <div class="col-lg-8 col-md-8  py-sm-2 address" >
+                <input id="searchBar" type="text" placeholder="Street, city, state">
+                <button id="searchButton" type="submit"><i class="fas fa-search-location"></i></button>
+            </div>
+            <div class="col-lg-4 col-md-4 py-sm-2"><button class="bg-success form-control form-control-lg text-white" id="findRestaurants">Find Restaurants</button></div>
+        </div>
+    </div>
+    </div>
+</div>
+<div id="map"></div>
+    
+    <footer id="mainFooter">
+        <div class="container" >
+            <div class="text-center py-2">
+                <a class="text-decoration-none text-dark px-2 py-4" id="gmail" href="#"><i class="fas fa-envelope-square"></i>hardebaryorone@gmail.com</a>
+                <a class="text-decoration-none text-dark px-2 py-4" id="phoneNo" href="#"><i class="fas fa-phone-square"></i>+234 816 787 3147</a>
+            </div>
+            <div class="text-center py-4 px-4">
+                <span class="px-2"><button class="btn btn-success px-4" id="signUpCompany">Sign up company</button></span>
+                <span class="px-2"><button class="btn btn-danger px-4">JOIN OUR TEAM</button></span>
+
+            </div>
+            
+            <div class=" text-center py-4">
+                    <span class="px-2"><button class="btn btn-light " id="facebook" type="button"><i class="fab fa-facebook"></i></button></span>
+                    <span class="px-2"><button class="btn btn-light" id="instagram" type="button"><i class="fab fa-instagram"></i></button></span>
+                    <span class="px-2"><button class="btn btn-light" id="twitter" type="button"><i class="fab fa-twitter"></i></button></span>
+                </div>
+                <section id" class="text-black  my-5 text-center">
+                        <p>&copy; <script>document.write(new Date().getFullYear());</script> foodie International. All right reserved</p>
+                    </section>
+                
+            </div>
+    </footer>   
+        
+    
+    
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+        <script src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>  
+        <script src="index.js"></script>
+        <script src="bundle.js"></script>
+</body>
+</html>

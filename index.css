@@ -1,0 +1,69 @@
+.foodie {
+    background: url(../images/american-4400603_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 800px;
+  
+}
+
+.darkOverlay{
+    background-color: rgba(0,0,0,0.7);  
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 800px;
+}
+
+.darkOverlay a:hover{
+  color: lightgray !important;
+}
+.jumbotron {
+    background-color: transparent !important;
+}
+.address{
+    padding: 50px;
+}
+.info{
+    display: block;
+}
+
+.address button{
+    float: right;
+    width: 10%;
+    padding: 10px;
+    background: #f1f1f1;
+    color: black;
+    font-size: 17px;
+    border-left: none;
+    cursor: pointer;
+    
+    border: 1px grey;
+}
+.address input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px  grey;
+    float: left;
+    width: 90%;
+    background: #f1f1f1;
+
+  }
+  .address button:hover {
+    background: darkgray;
+  }
+.address::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#mainFooter{
+
+    bottom:0;
+    position: relative;
+    background: lightgray;
+    height: 20%;
+    
+}
+

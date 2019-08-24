@@ -1,0 +1,32 @@
+.darkOverlay{
+    background: green;
+}
+.darkOverlay a:hover{
+    color: lightgray !important;
+}
+ #register{
+    border: 1px solid lightgray !important;
+    margin: 10px;
+    padding: 1rem;
+}
+
+#signIn{
+    border: 1px solid lightgray !important;
+    margin: 10px;
+    padding: 1rem;
+}
+#header{
+    background: gray
+}
+
+#mainFooter{
+    bottom:0;
+    position: relative;
+    background: lightgray;
+    height: 20%;
+    
+}
+.foodie {
+  min-height: 100vh;
+  
+}
